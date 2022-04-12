@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="wasmigration-ear">
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+        <dependent-module archiveName="wasmigration-war.war" deploy-path="/" handle="module:/resource/wasmigration-war/wasmigration-war">
+            <dependent-object>Module_1527188300343</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wasmigration-client.jar" deploy-path="/" handle="module:/resource/wasmigration-client/wasmigration-client">
+            <dependent-object>Module_1527188300376</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wasmigration-ejb.jar" deploy-path="/" handle="module:/resource/wasmigration-ejb/wasmigration-ejb">
+            <dependent-object>Module_1527194405572</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wasmigration-persistence.jar" deploy-path="/" handle="module:/resource/wasmigration-persistence/wasmigration-persistence">
+            <dependent-object>Module_1527200018038</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
